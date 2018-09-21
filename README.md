@@ -14,10 +14,18 @@ In this repository, we reference the Theano code from ACL2018 paper
 
 ## Description:
 ```
+<<<<<<< HEAD
 By using our asymmetric word embedding method, 
 models can learn interactions between "premise" and "hypothesis" directly from training data.
 By adding this relationships to different models(DEISTE and Decomposable Attention Vanilla), 
 our proposed method can improve both of their performance on different datasets(SciTail and SNLI).
+=======
+By using our asymmetric word embedding method, models can learn interactions between "premise" and "hypothesis" directly from training data.
+
+By adding this relationships to different models(DEISTE and Decomposable Attention Vanilla), 
+our proposed method can improve both of their performance on different datasets(SciTail and SNLI).
+
+>>>>>>> 65708b2... readme format
 In the end, we achieved the current SOTA accuracy on SciTail which is 84.4%.
 ```
 
