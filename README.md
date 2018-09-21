@@ -1,5 +1,5 @@
 # AWE-model
-## This is the code of our AAAI2019 paper "AWE: Asymmetric Word Embedding for Textual Entailment". 
+## This is the code of our paper "AWE: Asymmetric Word Embedding for Textual Entailment". 
 ```
 Authors: Tengfei Ma, Chiamin Wu, Cao Xiao, Jimeng Sun
 It gets state-of-the-art performance on the SciTail dataset(textual entailment) -- 84.4%. 
@@ -31,5 +31,5 @@ In the end, we achieved the current SOTA accuracy on SciTail which is 84.4%.
 
 ## Jupyter Notebook code demo:
 ```
-http://htmlpreview.github.io/?https://github.com/cwu392/AWE-model/blob/master/AAAI_Final_84p4.html
+http://htmlpreview.github.io/?https://github.com/cwu392/AWE-model/blob/master/Final_84p4.html
 ```
