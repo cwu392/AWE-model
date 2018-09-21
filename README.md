@@ -21,6 +21,4 @@ our proposed method can improve both of their performance on different datasets(
 ```
 
 ## Jupyter Notebook code demo:
-```
 http://htmlpreview.github.io/?https://github.com/cwu392/AWE-model/blob/master/Final_84p4.html
-```
