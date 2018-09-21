@@ -249,8 +249,8 @@ class Conv_for_Pair(object):
         aligned_posi_r = T.argmax(dot_tensor3, axis=1).flatten()
         posi_emb_tensor3_r = posi_emb_matrix[aligned_posi_r].reshape((batch_size,dot_tensor3.shape[2],posi_emb_size)).dimshuffle(0,2,1) #(batch, emb_size, r_len)
 
-        l_max_cos = (1.0 - T.min(selu(cm_dot_tensor3), axis=2))/(1.0 + 0.5 * T.max(selu(dot_tensor3), axis=2))#1.0/T.exp(T.max(T.nnet.sigmoid(dot_tensor3), axis=2)) #(batch, l_len)
-        r_max_cos = (1.0 - T.min(selu(cm_dot_tensor3), axis=1))/(1.0 + 0.5 * T.max(selu(dot_tensor3), axis=1))#1.0/T.exp(T.max(T.nnet.sigmoid(dot_tensor3), axis=1)) #(batch, r_len)
+        l_max_cos = (1.0 - T.min(selu(cm_dot_tensor3), axis=2))/(1.0 + T.max(selu(dot_tensor3), axis=2))#1.0/T.exp(T.max(T.nnet.sigmoid(dot_tensor3), axis=2)) #(batch, l_len)
+        r_max_cos = (1.0 - T.min(selu(cm_dot_tensor3), axis=1))/(1.0 + T.max(selu(dot_tensor3), axis=1))#1.0/T.exp(T.max(T.nnet.sigmoid(dot_tensor3), axis=1)) #(batch, r_len)
         '''
         another interaction matrix
         '''
