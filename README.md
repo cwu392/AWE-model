@@ -21,5 +21,5 @@ In the end, we achieved the current SOTA accuracy on SciTail which is 84.4%.
 
 ## Jupyter Notebook code demo:
 ```
-http://htmlpreview.github.io/?https://github.com/cwu392/AWE-model/blob/master/AAAI_Final_0.8441860465116279.html
+http://htmlpreview.github.io/?https://github.com/cwu392/AWE-model/blob/master/AAAI_Final_84p4.html
 ```
